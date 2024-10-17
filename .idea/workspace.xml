@@ -4,26 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d9e3ce2-926b-4e1f-9b32-3e272b2d6a71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/e-commerce-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="939b915d-c451-4f8a-a996-edce0af2b866" name="Changes" comment="Customer Service Application got created and adding basic configuration as well as adding some configuration in config server application also.">
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/dto/request/CustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/dto/response/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/exception/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/luv4code/ecommerce/customer/service/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/java/com/luv4code/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/java/com/luv4code/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -34,35 +54,79 @@
     </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="2nYThDqhozAcdzb2XrSPlfbli2K" />
+  <component name="ProjectId" id="2nYZUJeiZeK1Mi1Ik0oHApzKN8O" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigServerApplication.executor": "Debug",
+    "Spring Boot.CustomerApplication.executor": "Debug",
+    "Spring Boot.DiscoveryApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Spring/microservices/e-commerce-app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "vcs.Subversion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luv4code.ecommerce.customer.exception.handler" />
+      <recent name="com.luv4code.ecommerce.customer.dto.response" />
+      <recent name="com.luv4code.ecommerce.customer.model.response" />
+      <recent name="com.luv4code.ecommerce.customer.exception" />
+      <recent name="com.luv4code.ecommerce.customer.mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv4code.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv4code.ecommerce.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv4code.discovery.DiscoveryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,17 +146,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d9e3ce2-926b-4e1f-9b32-3e272b2d6a71" name="Changes" comment="" />
+      <changelist id="939b915d-c451-4f8a-a996-edce0af2b866" name="Changes" comment="" />
       <created>1725211718176</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725211718176</updated>
       <workItem from="1725211718179" duration="479000" />
-      <workItem from="1729149129595" duration="320000" />
+      <workItem from="1729151984454" duration="6156000" />
     </task>
+    <task id="LOCAL-00001" summary="Customer Service Application got created and adding basic configuration as well as adding some configuration in config server application also.">
+      <option name="closed" value="true" />
+      <created>1729152919314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729152919314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Customer Service Application got created and adding basic configuration as well as adding some configuration in config server application also." />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer Service Application got created and adding basic configuration as well as adding some configuration in config server application also." />
   </component>
 </project>
